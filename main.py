@@ -8,7 +8,7 @@ import os
 
 logging.basicConfig(level=logging.INFO)
 
-API_ID = int(os.getenv("24344133"))
+API_ID = int(os.getenv(24344133))
 API_HASH = os.getenv("edbe7000baef13fa5a6c45c8edc4be66")
 BOT_TOKEN = os.getenv("7790100613:AAFrRb6Amtpu5XAos0iuqb85Y05bEXsu_sg")
 
