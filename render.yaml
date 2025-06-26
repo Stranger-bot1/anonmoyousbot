@@ -1,0 +1,14 @@
+services:
+  - type: worker
+    name: nms-forwarder-bot
+    env: python
+    plan: free
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python main.py"
+    envVars:
+      - key: API_ID
+        value: "24344133"
+      - key: API_HASH
+        value: "edbe7000baef13fa5a6c45c8edc4be66"
+      - key: BOT_TOKEN
+        value: "7790100613:AAFrRb6Amtpu5XAos0iuqb85Y05bEXsu_sg"
